@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Conversion</title>
+
+    <!--Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div>
+            <h1 class="text-center pt-5">Code Conversion</h1>
+            <p class="text-center text-secondary">(Binary, Octal, Decimal & Hexadecimal)</p>
+        </div>
+        <div class="text-center">
+            <h3 class="p-2 text-success">Enter a Number</h3>
+            <input id="input-value" class="p-2" type="text" placeholder="Enter a number...">
+            <div class="pt-3">
+                <button onclick="codeConversion()" type="button" class="btn btn-primary"> Convert </button>
+                
+            </div>
+        </div>
+
+        <div id="show-result" class="text-center pt-5 text-muted">
+
+        </div>
+    </section>
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    
+        <!--JS link-->
+        <script src="app.js"></script>
+</body>
+
+</html>
